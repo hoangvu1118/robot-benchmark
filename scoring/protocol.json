@@ -1,0 +1,12 @@
+{
+  "goal_xy_m": 0.2,
+  "goal_yaw_rad": 0.17,
+  "max_linear_m_s": 0.22,
+  "max_angular_rad_s": 0.30,
+  "linear_acceleration_m_s2": 0.5,
+  "angular_acceleration_rad_s2": 0.5,
+  "controller_hz": 10.0,
+  "trial_sim_seconds": 300,
+  "contact_episode_gap_s": 0.1,
+  "clearance_sample_hz": 20
+}

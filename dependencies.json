@@ -1,0 +1,7 @@
+[
+  {"name":"pedsim_ros","url":"https://github.com/ignc-research/pedsim_ros.git","commit":"87bf930bb30ac2c66f488e4d3e49cbc5b35213b4"},
+  {"name":"ford_msgs","url":"https://bitbucket.org/acl-swarm/ford_msgs.git","commit":"b01f3ff4a704d4630824a1cdff2ffaa236464be8"},
+  {"name":"teb","url":"https://github.com/ignc-research/teb.git","commit":"b4cf0639775e4521cdf7681158043ad3eef4b01a"},
+  {"name":"ActorCollisionsPlugin","url":"https://github.com/ignc-research/ActorCollisionsPlugin.git","commit":"eb2dc9de71f43669becc217f536951cf51d50a69"},
+  {"name":"arena-evaluation","url":"https://github.com/ignc-research/arena-evaluation.git","commit":"17c076ec9f4445cb07df4c9746e3f52f30c517dc"}
+]

@@ -1,0 +1,19 @@
+name: arena-benchmark
+services:
+  benchmark:
+    build: .
+    image: robot-arena-benchmark:noetic
+    working_dir: /arena_ws
+    volumes:
+      - ../arena-bench:/sources/arena-bench:ro
+      - ../CollaborativeAMRStockerization/catkin_ws/src/amr_navigation:/sources/amr_navigation:ro
+      - .:/work
+      - arena_workspace:/arena_ws
+    environment:
+      ROS_MASTER_URI: http://localhost:11311
+      ROS_HOSTNAME: localhost
+      QT_QPA_PLATFORM: offscreen
+    # ROS/Gazebo stay on this container's network; no host ports required.
+    command: ["-lc", "sleep infinity"]
+volumes:
+  arena_workspace:

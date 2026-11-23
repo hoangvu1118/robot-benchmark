@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(ArenaSafetyRecorder LANGUAGES CXX)
+find_package(gazebo REQUIRED)
+link_directories(${GAZEBO_LIBRARY_DIRS})
+add_library(ArenaSafetyRecorder SHARED safety_recorder.cc)
+target_include_directories(ArenaSafetyRecorder PRIVATE ${GAZEBO_INCLUDE_DIRS})
+target_link_libraries(ArenaSafetyRecorder PRIVATE ${GAZEBO_LIBRARIES})
+target_compile_features(ArenaSafetyRecorder PRIVATE cxx_std_17)

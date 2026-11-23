@@ -1,0 +1,15 @@
+{
+  "recorded_date": "2026-11-17",
+  "arena_commit": "519640415718abc7603ff38bc80b2bd22c38b13c",
+  "amr_commit": "b5f86a2ef46d3ac8b47f7331bbec1133e603b5d5",
+  "base_image": "docker-ros1_stack:latest",
+  "base_image_id": "sha256:bd7bb23f49c81b097e6d91aeed9af5373a3e7d7c90f25c40f5b6b198e7d28301",
+  "benchmark_image_id": "sha256:b4a9ddda452dcc86e55096b373bdedccd08a0a842872024a44a04c3201ed3a22",
+  "ros": "noetic",
+  "python": "3.8.10",
+  "simulator": "Gazebo Classic 11",
+  "reference_planner_package": "/arena_ws/src/teb_local_planner",
+  "robot": "turtlebot3_burger",
+  "scenario": "map2_obs05.json",
+  "purpose": "initial connectivity validation, not a scored benchmark campaign"
+}

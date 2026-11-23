@@ -1,0 +1,18 @@
+[
+  "arena_bringup",
+  "arena_intermediate_planner",
+  "arena_local_planner_drl",
+  "arena_mapping",
+  "arena_path_search",
+  "arena_plan_msgs",
+  "arena_traj_planner",
+  "conventional",
+  "ford_msgs",
+  "pedsim_msgs",
+  "pedsim_srvs",
+  "plan_visualization",
+  "sensor_simulator",
+  "simulator_setup",
+  "task_generator",
+  "teb_local_planner"
+]
